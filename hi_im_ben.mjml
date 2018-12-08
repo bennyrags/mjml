@@ -1,0 +1,117 @@
+<mjml>
+
+  <mj-head>
+    <mj-style>
+      ul li,
+      .section_header div {
+      line-height:1.25;
+      color:white !important;
+      }
+
+      .marketing_div {
+      background-color:#072f5f;
+      }
+
+      .webdev_div {
+      background-color: #1261A0;
+      }
+      
+       .button td,
+      .button td  a {
+      background-color:#3895d3 !important;
+      }
+
+      @media (min-width:380px) {
+      .marketing_div,
+      .webdev_div {
+      background-color:#fff;
+      }
+       ul li,
+      .section_header div {
+      color:#072f5f !important;
+      }
+      
+    
+      
+      }
+
+    </mj-style>
+    <mj-attributes>
+      <mj-text color="#072f5f" />
+
+      <mj-section background-color="#fff" padding="0" />
+      <mj-image padding="0" />
+
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eee">
+    <mj-section>
+      <mj-column width="30%">
+        <mj-image align="center" padding-top="10px" src="https://benragsdalestuff.com/wp-content/uploads/2018/12/headshot-363x400.jpg" height="120px" width="110px" alt="headshot of Ben Ragsdale" title="Hi I'm Ben">
+        </mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" font-size="30px">
+          Hi, I'm Ben
+        </mj-text>
+        <mj-text font-size="14px">I have experience building emails and email campaigns using <a href="https://go.pardot.com">Pardot</a>. I built this email using the <a href="https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml">MJML extension</a>  for VS Code and saved it to a <a href="https://github.com/bennyrags/mjml">GitHub repo</a>!
+        </mj-text>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="20px" align="center" padding="20px">
+          Here's some other stuff I've done
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+
+      <mj-column css-class="marketing_div">
+        <mj-image src="https://benragsdalestuff.com/wp-content/uploads/2018/12/triangle-3.png"></mj-image>
+        <mj-text align="center" css-class="section_header" font-weight="bold">
+          Marketing
+        </mj-text>
+        <mj-text>
+          <ul>
+            <li>Created and implemented digital marketing campaigns using Salesforce and Pardot</li>
+            <li>Collaborated on creative direction</li>
+            <li>Analyzed effectiveness of social media and e-mail campaigns</li>
+            <li>Developed and deployed HTML emails, forms and splash pages</li>
+            <li>Wrote and edited marketing copy</li>
+          </ul>
+        </mj-text>
+        <mj-image src="https://benragsdalestuff.com/wp-content/uploads/2018/12/triangle-white.png"></mj-image>
+
+      </mj-column>
+
+      <mj-column css-class="webdev_div">
+        <mj-image src="https://benragsdalestuff.com/wp-content/uploads/2018/12/triangle-3.png"></mj-image>
+        <mj-text align="center" css-class="section_header" font-weight="bold">
+          Web Development
+        </mj-text>
+        <mj-text align="left">
+          <ul>
+            <li>Developed eCommerce websites using Wordpress, PHP, JS, CSS</li>
+            <li>Created custom taxonomies and rules in PHP </li>
+            <li>Utilized Advanced Custom Fields in PHP to speed workflows</li>
+            <li>Utilized SVGs and sprites to make the sites faster</li>
+            <li>Tested websites for speed and accessibility</li>
+            <li>Removed unneeded CSS, JS, PHP, and plugins</li>
+          </ul>
+        </mj-text>
+        <mj-image src="https://benragsdalestuff.com/wp-content/uploads/2018/12/triangle-white.png"></mj-image>
+
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://benragsdalestuff.com/wp-content/uploads/2018/12/triangle-3.png"></mj-image>
+        <mj-button href="https://bennyrags.github.io/resume.html" target="_blank" css-class="button">
+          Check Out my Resume!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
